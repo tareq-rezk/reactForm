@@ -1,0 +1,83 @@
+.App > div {    
+    display: flex;
+    justify-content: center;
+  
+}
+
+form {
+  
+    background: #4a5858b5;
+    display: flex;
+    align-items: flex-start;
+    flex-direction:  column;
+    width: 55%;
+    padding: 2rem 0rem;
+    background-image: linear-gradient(to right top, #4793b5, #4790b2, #468caf, #4689ab, #4586a8, #4c8aa8, #548fa8, #5c93a8, #709fac, #85aab1, #9ab5b7, #afc0bf);
+}
+
+form div {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    padding: 0;
+    margin: 0;
+}
+form label {
+    color: #fff;;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 3rem;
+    width: 40%;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    padding-left: 2rem;
+    
+}
+
+form input,
+form select
+{
+    height: 1.7rem;
+    text-indent: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(87, 80, 80);
+    width: 60%;
+    margin-bottom: 1.5rem;
+
+}
+
+form select {
+    width: 30%;
+    text-align:  left;
+    font-family: inherit;
+    transform: translateX(-20%);
+}
+
+form .buttons {
+    display:  block;
+    margin-top: 2rem;
+    margin: auto
+
+}
+form button {
+    padding: 10px 19px;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    background: rgb(29, 72, 73);
+    border: 1px solid #324041;
+    margin: 2rem 10px 0 10px;
+    color: #fff;
+    font-weight:  600;
+    box-shadow: 5px 0 10px grey;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+
+form button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+    background: rgba(45, 119, 121, 0.411);
+}
